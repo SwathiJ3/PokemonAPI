@@ -1,0 +1,117 @@
+body{
+    color:black;
+    background-color:orangered;
+    text-align: center;
+    width: 100%;
+    height:100%;
+        -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+h1{
+    
+    color: white;
+    text-align: center;
+}
+.heading {
+    color: aliceblue;
+    
+}
+
+.pkmon_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+    display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.pokemon {
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.pokemon .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+
+.pokemon .img-container img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+    
+
+ 
+.card-wrapper{
+    padding:40px;
+    text-align: center;
+}
+
+    .pokemon-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .pokemon-name {
+    
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+  .pokemon-card {
+    height: 30rem;
+    width: 25rem;
+    background-color: white;
+    
+    margin-bottom: 4rem;
+    
+    box-shadow: 1px 3px 71px -7px rgba(0,0,0,0.50);
+  } 
+  
+  .description {
+    background-color: rgb(232, 233, 213);
+    height: 40%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    justify-content: center;
+    
+    box-shadow: 1px 3px 71px -7px rgba(0,0,0,0.40 );
+  }
+  
+ .description p {
+    transform: translate(2rem, 1rem);
+    text-align: center;
+  }
+  
+  .image-wrapper {
+    height: 55%;
+  }
+  
+  .image-wrapper img {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
